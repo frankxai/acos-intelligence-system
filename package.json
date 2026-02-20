@@ -1,0 +1,28 @@
+{
+  "name": "acos-intelligence-system",
+  "version": "11.0.0",
+  "description": "ACOS v11 - Autonomous Creator Operating System. Dual-platform, self-learning, video-ready with upstream sync",
+  "type": "module",
+  "scripts": {
+    "monitor": "node scripts/acos-activity-monitor.mjs --watch",
+    "sync": "node upstream-sync/sync.ts",
+    "swarm": "node .swarm/orchestrator.ts",
+    "memory": "node .memory/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frankxai/acos-intelligence-system.git"
+  },
+  "keywords": ["ai", "claude", "opencode", "intelligence", "automation", "learning", "swarm", "video"],
+  "author": "FrankX",
+  "license": "MIT",
+  "dependencies": {},
+  "features": {
+    "sisyphus": "Core orchestrator from oh-my-opencode",
+    "swarm": "Multi-agent orchestration (6 topologies)",
+    "memory": "Vector-based pattern storage and learning",
+    "video": "Veo 3.1, Suno, Remotion integration",
+    "dualPlatform": "Claude Code + OpenCode support",
+    "upstreamSync": "Automated oh-my-opencode sync"
+  }
+}

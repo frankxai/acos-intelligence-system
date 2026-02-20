@@ -1,0 +1,44 @@
+{
+  "version": "11.0",
+  "name": "ACOS v11",
+  "description": "Autonomous Creator Operating System - Dual Platform",
+  "skills": "./skills",
+  "hooks": "./hooks",
+  "agents": {
+    "sisyphus": "./.sisyphus/sisyphus.ts",
+    "hephaestus": "./.sisyphus/hephaestus.ts",
+    "swarm": "./.swarm/orchestrator.ts"
+  },
+  "swarm": {
+    "enabled": true,
+    "defaultTopology": "hierarchical-mesh",
+    "maxAgents": 10,
+    "timeout": 30000
+  },
+  "memory": {
+    "enabled": true,
+    "vectorStore": "./.memory/index.ts"
+  },
+  "magicWords": {
+    "ultrawork": {
+      "enabled": true,
+      "handler": "./.sisyphus/magic-words/ultrawork.ts"
+    }
+  },
+  "video": {
+    "enabled": true,
+    "providers": ["veo", "suno", "remotion"]
+  },
+  "upstreamSync": {
+    "enabled": true,
+    "repo": "code-yeongyu/oh-my-opencode",
+    "protected": [
+      ".sisyphus/**",
+      ".swarm/**",
+      ".memory/**",
+      ".video/**",
+      ".opencode/**",
+      "upstream-sync/**"
+    ]
+  }
+}
