@@ -35,7 +35,7 @@ Each attribute defined as:
 Example for "Cool Authority":
 - **We are**: confident, precise, lets the work speak
 - **We are not**: arrogant, dismissive, or name-dropping
-- **Sounds like**: "12,000 AI-generated tracks. Here's what that teaches you about creative consistency."
+- **Sounds like**: "[Specific result]. Here's what that teaches you about [topic]."
 - **Never sounds like**: "As a top AI architect, I know better than most that..."
 
 ### 2. Audience Definition
@@ -82,18 +82,12 @@ When writing, run this checklist:
 - Passive voice where active works better
 - Hedging: "I think", "maybe", "possibly" (unless intentional)
 
-## Voice for ACOS / FrankX Context
+## Loading Voice Config
 
-When working in the FrankX project, load voice from `/mnt/c/Users/Frank/FrankX/CLAUDE.md` Brand Positioning section:
-
-**Core attributes:**
-- **Excellence** — every detail matters, ultra-high quality
-- **Craftsmanship** — meticulous attention to design, code, copy
-- **Humility** — let the work speak, results over claims
-- **Depth** — technical sophistication with creative flair
-
-**Voice DO:** Lead with results. Precise technical language. Show don't tell. Confident but understated.
-
-**Voice DON'T:** Spiritual language. Grandiose claims. Over-explain philosophy. Self-help guru tone.
+Check for voice documentation in this priority order:
+1. `CREATOR.md` in the current project (hot cache — covers 90% of requests)
+2. `creator-memory/voice.md` in the current project (full documentation)
+3. Project `CLAUDE.md` — look for a "Brand Positioning" or "Voice" section
+4. If none found: ask the user to describe their voice, or run `/creator-sprint`
 
 See `references/voice-frameworks.md` for the full voice documentation template and attribute definition system.

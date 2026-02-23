@@ -68,7 +68,7 @@ User request →
 **Lookup examples:**
 - "write a linkedin post" → load voice attributes + LinkedIn channel rules from CREATOR.md
 - "create a blog hero image" → load visual style from CREATOR.md, fall back to creator-memory/visual.md
-- "finish the soulbook brief" → load project brief from creator-memory/projects/soulbook.md
+- "finish the [project] brief" → load project brief from creator-memory/projects/[project].md
 
 ## Session Start Checklist
 
