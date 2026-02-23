@@ -1,23 +1,8 @@
 {
   "name": "acos",
   "version": "11.0.0",
-  "description": "Agentic Creator OS — AI systems architect, content engine, music producer, visual creator, product builder, and DevOps engineer in one operating system. Auto-routes all requests to the right specialist agent. Works on Claude Code and OpenCode. Self-learning with trajectory-based pattern extraction.",
-  "domains": [
-    "ai-architecture",
-    "content-creation",
-    "music-production",
-    "visual-creation",
-    "product-building",
-    "deployment"
-  ],
+  "description": "Agentic Creator OS — AI systems architect, content engine, music producer, visual creator, and product builder in one operating system. Auto-routes requests to specialist agents for AI architecture, content, music, visuals, deployment, and deep research. Self-learning with trajectory-based pattern extraction.",
   "author": {
-    "name": "FrankX AI",
-    "url": "https://frankx.ai"
-  },
-  "repository": "https://github.com/frankxai/acos-intelligence-system",
-  "compatibility": {
-    "claude-code": true,
-    "opencode": true,
-    "cowork": false
+    "name": "FrankX AI"
   }
 }
