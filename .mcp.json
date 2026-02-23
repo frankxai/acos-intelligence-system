@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "slack": {
+      "type": "http",
+      "url": "https://mcp.slack.com/mcp"
+    },
+    "notion": {
+      "type": "http",
+      "url": "https://mcp.notion.com/mcp"
+    },
+    "figma": {
+      "type": "http",
+      "url": "https://mcp.figma.com/mcp"
+    },
+    "resend": {
+      "type": "http",
+      "url": "https://mcp.resend.com/mcp"
+    }
+  },
+  "_local_mcp_note": "ACOS also uses local MCP servers configured in ~/.claude/settings.json — nano-banana (image gen), sequential-thinking, playwright, Zapier, and memory. These are not listed here as they require local configuration. See CONNECTORS.md for the full connector map."
+}

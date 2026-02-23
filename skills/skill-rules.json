@@ -26,7 +26,15 @@
     },
     "music": {
       "priority": "medium",
-      "skills": ["suno-ai-mastery", "suno-prompt-architect"]
+      "skills": ["suno-ai-mastery", "suno-prompt-architect", "music-production"]
+    },
+    "brand": {
+      "priority": "high",
+      "skills": ["brand-voice", "creator-productivity"]
+    },
+    "meta": {
+      "priority": "low",
+      "skills": ["acos-meta"]
     }
   },
 
